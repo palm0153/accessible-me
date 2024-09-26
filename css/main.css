@@ -69,3 +69,21 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+.skip-links ul {
+  list-style: none;
+  position: relative;
+}
+
+.skip-links a {
+  /* move them above the top of the page using the position absolute */
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus {
+  top: 0;
+  background-color: darkorange;
+  display: block;
+  padding: 10px;
+}
